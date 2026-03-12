@@ -1,5 +1,12 @@
 # Workflow Decision System
 
+Installation
+
+git clone <repo>
+cd decision-system
+npm install
+node app.js
+
 # Configurable Workflow Decision Platform
 
 This project implements a configurable workflow decision system capable of handling business decision pipelines.
