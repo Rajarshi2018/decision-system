@@ -1,0 +1,8 @@
+{
+  "stages": [
+    "validate",
+    "rules",
+    "external",
+    "decision"
+  ]
+}

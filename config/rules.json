@@ -1,0 +1,19 @@
+{
+  "rules": [
+    {
+      "name": "high_score",
+      "condition": "score > 70",
+      "action": "approve"
+    },
+    {
+      "name": "low_score",
+      "condition": "score < 40",
+      "action": "reject"
+    },
+    {
+      "name": "medium_score",
+      "condition": "score >= 40 && score <= 70",
+      "action": "manual_review"
+    }
+  ]
+}
